@@ -68,6 +68,17 @@ They are not required, but may be used to enchance the flavor.
     - 288 charge / 21 cost = 13 uses
 - **Scourge**
   - Unenchanted
+- **Magebane**  
+*Even though it's not lua-powered, it fits the theme.*
+  - For different mesh replacers
+    - Vanilla
+    - [Vanilla Friendly Wearables Expansion](https://www.nexusmods.com/morrowind/mods/48683) by RandomPal / [Magebane Replacer by GVLT](https://www.nexusmods.com/morrowind/mods/48748) by GVLT
+    - [OAAB - Tombs and Towers](https://www.nexusmods.com/morrowind/mods/49131) by Remiros
+  - Echantments
+    - Offensive *(inspired by [Better magebane](https://www.nexusmods.com/morrowind/mods/51418) by LH23)*
+      - Damage Magicka 20-40 pts for 10 sec
+      - Damage Intelligence 20-30 pts for 10 sec
+      - 3100 charge
 
 They also can be used standalone if you don't vibe with the rest of the mod.
 
