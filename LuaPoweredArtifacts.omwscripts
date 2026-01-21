@@ -1,3 +1,2 @@
-CREATURE: scripts/LuaPoweredArtifacts/creature.lua
-NPC: scripts/LuaPoweredArtifacts/npc.lua
+CREATURE, NPC: scripts/LuaPoweredArtifacts/actor.lua
 PLAYER: scripts/LuaPoweredArtifacts/player.lua

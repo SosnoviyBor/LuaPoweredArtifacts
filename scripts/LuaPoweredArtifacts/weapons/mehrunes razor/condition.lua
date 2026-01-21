@@ -4,6 +4,7 @@ local self = require("openmw.self")
 require("scripts.LuaPoweredArtifacts.utils.instakill")
 
 local sectionRazor = storage.globalSection("SettingsLuaPoweredArtifacts_razor")
+local blacklisted = InInstakillBlacklist(self)
 
 function RazorCond(attack)
     if not sectionRazor:get("enabled") then
@@ -15,5 +16,5 @@ function RazorCond(attack)
     end
 
     return attack.weapon.recordId == "mehrunes'_razor_unique"
-        and not InInstakillBlacklist(self)
+        and not blacklisted
 end

@@ -1,3 +1,5 @@
+local I = require('openmw.interfaces')
+
 require("scripts.LuaPoweredArtifacts.weapons.umbra.condition")
 require("scripts.LuaPoweredArtifacts.weapons.umbra.logic")
 require("scripts.LuaPoweredArtifacts.weapons.mehrunes razor.condition")
@@ -18,3 +20,5 @@ function ApplyEffect(attack)
         end
     end
 end
+
+I.Combat.addOnHitHandler(ApplyEffect)

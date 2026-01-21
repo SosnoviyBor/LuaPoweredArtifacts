@@ -11,8 +11,8 @@ local fakeEssential = {
 }
 
 function InInstakillBlacklist(actor)
-    if      fakeEssential[string.lower(actor.recordId)] then            return false
-    elseif  actor.type.records[actor.recordId].isEssential then         return true
-    elseif  imaGodHowCanYouKillAGod[string.lower(actor.recordId)] then  return true
-    else                                                                return false end
+    if     fakeEssential[string.lower(actor.recordId)] then           return false
+    elseif actor.type.records[actor.recordId].isEssential then        return true
+    elseif imaGodHowCanYouKillAGod[string.lower(actor.recordId)] then return true
+    else                                                              return false end
 end

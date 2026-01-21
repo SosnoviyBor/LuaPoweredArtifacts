@@ -1,7 +1,7 @@
 local storage = require("openmw.storage")
 local types = require("openmw.types")
 
-local sectionGeneral = storage.globalSection("SettingsLuaPoweredArtifacts_razor")
+local sectionRazor = storage.globalSection("SettingsLuaPoweredArtifacts_razor")
 
 GetActorLuck = types.Actor.stats.attributes.luck
 
@@ -14,12 +14,9 @@ Presets = {
         return 1.98
     end,
     Custom = function(player)
-        local bc = sectionGeneral:get("baseChance")
+        local bc = sectionRazor:get("baseChance")
         local pl = GetActorLuck(player).modified
-        local lm = sectionGeneral:get("luckModifier")
+        local lm = sectionRazor:get("luckModifier")
         return bc + pl * lm
-    end,
-    Cheater = function(player)
-        return math.huge
     end
 }

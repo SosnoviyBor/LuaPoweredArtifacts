@@ -9,4 +9,7 @@ function DoSoultrap(attack)
         effects = { 0 },
         caster = attack.attacker,
     })
+
+    Log("Umbra Sword debug message!\n" ..
+        "Victim: " .. self.recordId)
 end
