@@ -61,18 +61,23 @@ Now Scourge deals more damage to all daedra or even instakills them. Summoned an
 
 ## Bonus Plugins with Enchantment Changes
 
-They are not required, but may be used to enchance the flavor.
+They are not required, but may be used to enhance the flavor.
 
-- **Mehrunes' Razor**
-  - Unenchanted
-- **Umbra**
-  - Unenchanted
-  - Skyrimized
-    - Absorb Health 25 pts for 1 sec
-    - Absorb Fatigue 25 pts for 1 sec
-    - 288 charge / 21 cost = 13 uses
-- **Scourge**
-  - Unenchanted
+### Mehrunes' Razor
+
+- Unenchanted
+
+### Umbra
+
+- Unenchanted
+- Skyrimized
+  - Absorb Health 25 pts for 1 sec
+  - Absorb Fatigue 25 pts for 1 sec
+  - 288 charge / 21 cost = 13 uses
+
+### Scourge
+
+- Unenchanted
 
 They also can be used standalone if you don't vibe with the rest of the mod.
 
@@ -83,9 +88,8 @@ Completely safe to install, update, or remove mid-playthrough. Compatible with a
 ### Supported Mods
 
 - [Umbra- Blademaster](https://www.nexusmods.com/morrowind/mods/43275) by Melchior Dahrk - All weapons added by this mod (both melee and thrown) will also support Umbra's new behavior.
-- [Tamriel_Data](https://www.nexusmods.com/morrowind/mods/44537) by Project Tamriel Team - All daedra are affected by Scourge's new behavior.
-- [OAAB_Data](https://www.nexusmods.com/morrowind/mods/49042) by OAAB_Data Team - All daedra are affected by Scourge's new behavior. [TBA]
-- [The Doors of Oblivion](https://www.nexusmods.com/morrowind/mods/44398?tab=posts) by Ashstaar - All daedra are affected by Scourge's new behavior. [TBA]
+
+Scourge dynamically supports any mods adding daedra. Yes, even [The Doors of Oblivion](https://www.nexusmods.com/morrowind/mods/44398) >:]
 
 ### Soft Incompatibilities
 

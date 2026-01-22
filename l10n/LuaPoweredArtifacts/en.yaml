@@ -1,1 +1,47 @@
 messageDaedricBanishing: Through the Razor, Mehrunes Dagon claims this soul!
+
+page_name: Lua Powered Artifacts
+page_desc: Empowers some artifacts with unique behavior.
+
+razor_name: Mehrunes' Razor
+razor_desc: Adds a chance to instakill an enemy, similar to Oblivion and Skyrim.
+enabled_name: Enabled
+preset_name: Preset
+preset_desc: |
+  - BC -> Base Chance
+  - PL -> Player Luck
+  - LM -> Luck Modifier
+  
+  Available presets (in percents):
+  - Oblivion-style -> PL * 0.05
+  - Skyrim-style -> 2/101 -> 1.98%
+  - Custom -> BC + PL * LM
+baseChance_name: "Base Chance"
+baseChance_desc: "BC value for Custom preset."
+luckModifier_name: "Luck Modifier"
+luckModifier_desc: "LM value for Custom preset."
+counterRollEnabled_name: "Take Enemy Luck Into Account"
+counterRollEnabled_desc: |
+  Adds (-EL * ELM) to the end of the formula.
+  - EL -> Enemy Luck
+  - ELM -> Enemy Luck Modifier
+counterRollModifier_name: "Enemy Luck Modifier"
+razorPlaySFX_name: Play SFX on Instakill
+razorShowMessage_name: Show Message on Instakill
+
+umbra_name: Umbra Sword
+umbra_desc: Makes Umbra apply Soultrap effect on its victims regardless of its charge.
+
+scourge_name: Scourge
+scourge_desc: Increases Scourge damage against all daedra.
+normalDaedraDmgModifier_name: Damage Modifier Against Normal Daedra
+normalDaedraDmgModifier_desc: Set it to -1 to make make it instakill them.
+summonedDaedraDmgModifier_name: Damage Modifier Against Conjured Daedra
+summonedDaedraDmgModifier_desc: Set it to -1 to make make it instakill them.
+instakillPreventsSoultrap_name: Instakilling Prevents Soutrap
+instakillPreventsSoultrap_desc: >
+  Because if their soul is banished to Oblivion, it's not going to your soulgem.
+scourgePlaySFX_name: Play SFX on Instakill
+
+debug_name: Debug
+log_name: Enable Logging

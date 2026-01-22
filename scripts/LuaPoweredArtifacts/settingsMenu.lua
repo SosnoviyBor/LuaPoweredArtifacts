@@ -4,5 +4,5 @@ I.Settings.registerPage {
     key = 'LuaPoweredArtifacts',
     l10n = 'LuaPoweredArtifacts',
     name = 'page_name',
-    description = 'page_description',
+    description = 'page_desc',
 }

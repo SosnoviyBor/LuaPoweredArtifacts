@@ -2,6 +2,7 @@ local storage = require("openmw.storage")
 local self = require("openmw.self")
 
 require("scripts.LuaPoweredArtifacts.utils.omwUtils")
+require("scripts.LuaPoweredArtifacts.weapons.mehrunes razor.data")
 
 local sectionRazor = storage.globalSection("SettingsLuaPoweredArtifacts_razor")
 
@@ -22,7 +23,7 @@ function DoInstakill(attack)
     instakillChance = instakillChance / 100
     if instakillChance >= gameRoll then
         self.type.stats.dynamic.health(self).current = 0
-        attack.attacker:sendEvent("onRazorInstakill")
+        attack.attacker:sendEvent("RazorInstakill")
     end
 
     Log("Mehrunes' Razor debug message!\n" ..

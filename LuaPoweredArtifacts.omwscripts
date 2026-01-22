@@ -1,2 +1,5 @@
 CREATURE, NPC: scripts/LuaPoweredArtifacts/actor.lua
 PLAYER: scripts/LuaPoweredArtifacts/player.lua
+
+MENU: scripts/LuaPoweredArtifacts/settingsMenu.lua
+GLOBAL: scripts/LuaPoweredArtifacts/settingsGlobal.lua
